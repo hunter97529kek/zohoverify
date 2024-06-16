@@ -1,3 +1,8 @@
-@ in MX 10 mx.zoho.eu.
-@ in MX 20 mx2.zoho.eu.
-@ in MX 50 mx3.zoho.eu.
+
+;; === CNAME Record ===
+mail 300 IN CNAME business.zoho.com.
+
+;; === MX Records ===
+@ 300 IN  MX  10 mx.zoho.com.
+@ 300 IN  MX  20 mx2.zoho.com.
+@ 300 IN  MX  50 mx3.zoho.com.
